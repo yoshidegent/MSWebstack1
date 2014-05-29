@@ -11,8 +11,21 @@ namespace Oef2
     {
         protected void Application_Start()
         {
+            Application["Counter"] = 0;
+
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+        }
+
+        protected void Session_Start()
+        {
+            Application["Counter"] = (int)Application["Counter"] + 1;
+        }
+
+        protected void Session_End()
+        {
+
+            Application["Counter"] = (int)Application["Counter"] - 1;
         }
     }
 }
