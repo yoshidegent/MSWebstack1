@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\..\..\..\..\Dropbox\School\TI\Toegepaste Informatica\2de Bach\Microsoft Webstack\We\We1.pdf = ..\..\..\..\..\Dropbox\School\TI\Toegepaste Informatica\2de Bach\Microsoft Webstack\We\We1.pdf
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oef3", "Oef3\Oef3.csproj", "{A7428EA1-8BC0-4A6C-9CBC-1BBF91206F41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{2DCC0458-1617-46A3-8873-DD926AADF4E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DCC0458-1617-46A3-8873-DD926AADF4E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DCC0458-1617-46A3-8873-DD926AADF4E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7428EA1-8BC0-4A6C-9CBC-1BBF91206F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7428EA1-8BC0-4A6C-9CBC-1BBF91206F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7428EA1-8BC0-4A6C-9CBC-1BBF91206F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7428EA1-8BC0-4A6C-9CBC-1BBF91206F41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

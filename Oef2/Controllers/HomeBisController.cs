@@ -24,6 +24,9 @@ namespace Oef2.Controllers
 
         public ActionResult SecondPage()
         {
+            if (string.IsNullOrWhiteSpace(Session["naam"].ToString()))
+                Response.Redirect(".");
+
             ViewBag.naam = Session["naam"];
             return View();
         }

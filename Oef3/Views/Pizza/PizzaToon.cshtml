@@ -1,0 +1,28 @@
+﻿@model Oef3.Models.Pizza
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>PizzaToon</title>
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Pizza: @Model.PizzaNaam</h1>
+        </header>
+        <article>
+            <div>
+                <p>Besteller: @Model.Besteller</p>
+            </div>
+            <div>
+                <p>Extra kaas? @ViewBag.ExtraKaas</p>
+            </div>
+            <div>
+                <p>Betaalwijze: @Model.Betaalwijze</p>
+            </div>
+        </article>
+    </div>
+</body>
+</html>

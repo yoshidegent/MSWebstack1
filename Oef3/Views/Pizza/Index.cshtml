@@ -1,0 +1,52 @@
+﻿@model Oef3.Models.Pizza
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Pizza aanmaken</h1>
+        </header>
+        <form method="post" action="PizzaToon">
+            <div>
+                <label for="Besteller">Besteller: </label>
+                <input name="Besteller" type="text"/>
+            </div>
+            <div>
+                <label for="PizzaNaam">Pizza: </label>
+                <input name="PizzaNaam" type="text"/>
+            </div>
+            <div>
+                <label for="ExtraKaas">Extra kaas? </label>
+                <input name="ExtraKaas" type="checkbox" value="false"/>
+            </div>
+            <div>
+                <label for="Betaalwijze"></label>
+                <div>
+                    <div>
+                        <input type="radio" name="Betaalwijze" value="0"/> Cash
+                    </div>
+                    <div>
+                        <input type="radio" name="Betaalwijze" value="1" /> Cheque
+                    </div>
+                    <div>
+                        <input type="radio" name="Betaalwijze" value="2" /> Overschrijving
+                    </div>
+                </div>
+            </div>
+            <div>
+                <input type="submit"/>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
