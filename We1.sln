@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oef1", "Oef1\Oef1.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oef2", "Oef2\Oef2.csproj", "{2DCC0458-1617-46A3-8873-DD926AADF4E2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AFC7D246-12C4-4B83-AFD9-6554E2CE5564}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\Dropbox\School\TI\Toegepaste Informatica\2de Bach\Microsoft Webstack\We\We1.pdf = ..\..\..\..\..\Dropbox\School\TI\Toegepaste Informatica\2de Bach\Microsoft Webstack\We\We1.pdf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
