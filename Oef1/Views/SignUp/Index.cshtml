@@ -1,0 +1,81 @@
+﻿
+@{
+    ViewBag.Title = "Sign up";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Dezelfde action (get)</h1>
+        </header>
+        <form method="get">
+            <div>
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" />
+            </div>
+            <div>
+                <label for="emailClient">E-mail client: </label>
+                <select name="emailClient">
+                    <option value="msOutlook">Microsoft Outlook</option>
+                    <option value="outlookExpress">Outlook Express</option>
+                    <option value="thunderbird">Thunderbird</option>
+                    <option value="other">Other...</option>
+                </select>
+            </div>
+            <div>
+                <label for="pw">Password: </label>
+                <input type="password" name="pw" />
+            </div>
+            <div>
+                <input type="submit" value="Sign Up"/>
+            </div>
+        </form>
+        <div>
+            <p>
+                @ViewBag.Bericht
+            </p>
+        </div>
+    </div>
+
+
+    <div>
+        <header>
+            <h1>Andere action</h1>
+        </header>
+        <form method="get" action="@Url.Action("SignUp", "SignUp")">
+            <div>
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" />
+            </div>
+            <div>
+                <label for="emailClient">E-mail client: </label>
+                <select name="emailClient">
+                    <option value="msOutlook">Microsoft Outlook</option>
+                    <option value="outlookExpress">Outlook Express</option>
+                    <option value="thunderbird">Thunderbird</option>
+                    <option value="other">Other...</option>
+                </select>
+            </div>
+            <div>
+                <label for="pw">Password: </label>
+                <input type="password" name="pw" />
+            </div>
+            <div>
+                <input type="submit" value="Sign Up" />
+            </div>
+        </form>
+        <div>
+            <p>
+                @ViewBag.Bericht
+            </p>
+        </div>
+    </div>
+</body>
+</html>
